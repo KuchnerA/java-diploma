@@ -20,4 +20,13 @@ public class Suggest {
     public String getUrl() {
         return url;
     }
+
+    @Override
+    public String toString() {
+        return "Suggest{" +
+                "keyWord='" + keyWord + '\'' +
+                ", title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }
